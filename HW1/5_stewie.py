@@ -1,3 +1,6 @@
+# This shows the basic syntax for functions and how they are used
+# Also shows how to use a while loop for brownie points
+
 def function1():
     print('//////////////////////')
 
