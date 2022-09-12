@@ -1,7 +1,5 @@
 # This program prints a saguaro cactus
 
-# TODO: Make it actually dynamic for any number > 1
-
 # Define the scale of the cactus (2-4)
 SCALE = 3
 
