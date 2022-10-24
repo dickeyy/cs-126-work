@@ -2,61 +2,43 @@ import turtle as t
 import keyboard as k
 
 # Define main
+aim = ''
+
 def main():
-    # Set up turtle
-    t.setup(400, 400)
+    t.setup(200, 200)
     t.speed(0)
 
-    # call etchasketch function
-    etchasketch()
+    # when the user preses the down  button, print(down)
+    global aim
+    while aim != "q":
+        key_press = get_key()
 
-# Define etchasketch function
-def etchasketch():
-    # Set up turtle
-    t.pensize(5)
-    t.pencolor("black")
-    t.penup()
-    t.goto(0, 0)
-    t.pendown()
+       
+def get_key():
+    if k.is_pressed('w'):
+        me_up()
+    elif k.is_pressed('s'):
+        me_down()
+    elif k.is_pressed('a'):
+        me_left()
+    elif k.is_pressed('d'):
+        me_right()
+    elif k.is_pressed('q'):
+        global aim
+        aim = 'q'
 
-    # Set up keyboard
-    k.on_press_key("up", up)
-    k.on_press_key("down", down)
-    k.on_press_key("left", left)
-    k.on_press_key("right", right)
-    k.on_press_key("space", space)
-    k.on_press_key("c", c)
-    k.wait("esc")
+# Define me_up functionq
+def me_up():
+    print('up')
 
-# Define up function
-def up():
-    t.setheading(90)
-    t.forward(10)
+def me_down():
+    print('down')
 
-# Define down function  
-def down():
-    t.setheading(270)
-    t.forward(10)
+def me_left():
+    print('left')
 
-# Define left function
-def left():
-    t.setheading(180)
-    t.forward(10)
-
-# Define right function
-def right():
-    t.setheading(0)
-    t.forward(10)
-
-# Define space function
-def space():
-    t.penup()
-    t.goto(0, 0)
-    t.pendown()
-
-# Define c function
-def c():
-    t.clear()
+def me_right():
+    print('right')
 
 # Call main
 main()
