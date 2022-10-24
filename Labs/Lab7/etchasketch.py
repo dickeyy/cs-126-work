@@ -1,18 +1,20 @@
-import turtle as t
+from turtle import *
 import keyboard as k
 
-# Define main
 aim = ''
 
 def main():
-    t.setup(200, 200)
-    t.speed(0)
-
-    # when the user preses the down  button, print(down)
+    setworldcoordinates(0,1000,1000,0)
+    pen_state = pen()
+    up()
+    goto(500,500)
+    down()
+    idk()
+    
+def idk():
     global aim
     while aim != "q":
         key_press = get_key()
-
        
 def get_key():
     if k.is_pressed('w'):
@@ -26,19 +28,29 @@ def get_key():
     elif k.is_pressed('q'):
         global aim
         aim = 'q'
-
-# Define me_up functionq
 def me_up():
-    print('up')
+    pen_state = pen()
 
+    setheading(0)
+    forward(1)
+    
 def me_down():
-    print('down')
+    pen_state = pen()
+
+    setheading(180)
+    forward(1)
 
 def me_left():
-    print('left')
+    pen_state = pen()
+
+    setheading(360)
+    forward(1)
 
 def me_right():
-    print('right')
+    pen_state = pen()
 
-# Call main
+    setheading(90)
+    forward(1)
+    
+
 main()
