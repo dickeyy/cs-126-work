@@ -1,0 +1,4 @@
+Starbucks	802-804 E University Blvd	restaurant, coffee	32.23146	-110.95907
+Mount Lemmon	Tucson	tourist, park	32.44380	-110.77134
+Student Union Building	University of Arizona campus	restaurant	32.23262	-110.95206
+Gould-Simpson Hall	University of Arizona campus	university, ua	32.22976	-110.95501

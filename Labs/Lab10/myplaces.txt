@@ -1,0 +1,50 @@
+Chick-Fil-A
+1000 S Milton Rd, Flagstaff, AZ 86001
+restaurant, fast-food
+35.190570
+-111.660200
+Dutch Bros Coffee
+301 Regent St, Flagstaff, AZ 86001
+coffee, restaurant
+35.192210
+-111.643040
+Raising Cane's Chicken Fingers
+1551 S Milton Rd, Flagstaff, AZ 86001
+restaurant, fast-food
+35.185261
+-111.662041
+Target
+1650 S Milton Rd, Flagstaff, AZ 86001
+store, grocery
+35.184212
+-111.659691
+Over Easy
+2500 S Woodlands Village Blvd #27, Flagstaff, AZ 86001
+restaurant, breakfast
+35.178310
+-111.667200
+Starbucks
+300 E McConnell Dr, Flagstaff, AZ 86001
+restaurant, coffee
+35.180660
+-111.654793
+Walmart
+2750 S Woodlands Village Blvd, Flagstaff, AZ 86001
+store, grocery
+35.176289
+-111.664558
+Buffalo Wild Wings
+2700 S Woodlands Village Blvd #550, Flagstaff, AZ 86001
+wings, restaurant
+35.176000
+-111.667400
+NAU Bookstore
+1015 S San Francisco St Bldg 35, Flagstaff, AZ 86011
+store, clothing
+35.188420
+-111.653640
+Lumberyard Brewing Co.
+5 S San Francisco St, Flagstaff, AZ 86001
+restaurant, brewery
+35.196570
+-111.648850
